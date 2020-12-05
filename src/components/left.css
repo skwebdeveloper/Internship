@@ -25,14 +25,17 @@
 
 }
 
-
 .app__left__heading{
   text-align: left;
   margin-left: 30px;
   font-size: 45px;
-
 }
 
+@media (max-width: 1200px){
+  .header h1{
+  display: none;
+}
+}
 
 .image__one{
   height: 80vh;
@@ -63,7 +66,6 @@
 
 }
 
-
 .app__text > h1{
 font-size: 30px;
 color: #333333;
@@ -87,7 +89,8 @@ color: #333333;
 .app__text > h5{
   padding-top: 10px;
   padding-bottom: 15px;
-  font-size: 16px;
-  color: #333333;
+  font-size: 17px;
+  color: black;
+  line-height: 26px;
   letter-spacing: 1px;
 }

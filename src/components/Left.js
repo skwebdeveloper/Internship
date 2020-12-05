@@ -1,5 +1,5 @@
 import React from 'react'
-import "./right.css"
+import "./left.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
@@ -15,12 +15,12 @@ const Left = () => {
         </div>
         <div data-aos="fade-zoom-in"
              data-aos-easing="ease-in-back"
-             data-aos-delay="300"
+             data-aos-delay="200"
              data-aos-offset="0" 
              className="app__text col">
             <p>Body & Hand | Body</p>
             <h1>Redemption Body Scrub</h1>
-            <h5 style={{ letterSpacing:'0.2px', lineHeight:'20px' }}>A bracing blend of finely milled Pumice, Bamboo Stem and aromatic Pine Needle oil that sloughs away tired cells to leave skin polished and refreshed, perfectly prepared for hydration.</h5>
+            <h5>A bracing blend of finely milled Pumice, Bamboo Stem and aromatic Pine Needle oil that sloughs away tired cells to leave skin polished and refreshed, perfectly prepared for hydration.</h5>
             <hr className="invisible" />
             <p >Skin feel</p>
             <h4 >Soft, smooth, refreshed</h4>

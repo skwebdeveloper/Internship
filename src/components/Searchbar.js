@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../App.css"
 // import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 // ============================================
@@ -10,6 +10,7 @@ const Searchbar = () =>{
         <div className="app__searchbar">
             <h4 className="app__searchbar__head"><span className="searchbar__title">Enjoy complimentary standard shipping on all orders. +</span></h4>
         </div>
+       
     )
 }
 

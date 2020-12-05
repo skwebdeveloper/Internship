@@ -1,13 +1,16 @@
 import React from 'react'
-
+import "./navbar.css"
 // ============================================
 // Well I case of React we use React Router but for now I simply use ul and li to show navigation bar
 // ============================================
 
 const Navbar = () => {
     return (
-        <div className="app__navbar">
-            <div className="app__navbar__left">
+        <nav>
+        <label for="toggle" className="checkbtn"><i className="fas fa-bars"></i></label>
+            <input type="checkbox" className="toggle" />
+            <label className="logo">Aesop</label>
+            <div className="side__navigation">
             <ul className="app__navbar__ul">
             <li><a href="#Shop">Shop</a></li>
             <li><a href="#Read">Read</a></li>
@@ -17,7 +20,7 @@ const Navbar = () => {
             <li style={{ float:"right" }}><a href="#Cart">Cart</a></li>
             </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 
