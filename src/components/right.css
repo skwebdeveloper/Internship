@@ -1,40 +1,72 @@
+.app__left{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col{
+  flex: 1 1 8%;
+  padding: 0.5em 30px;
+  box-sizing: border-box;
+}
+
+.header {
+  flex-basis: 50%;
+}
+
+.app__image {
+  flex-basis: 20%;
+
+}
+
+.app__text {
+  flex-basis: 30%;
+
+}
+
+
+.app__left__heading{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 45px;
+
+}
+
+
 .image__one{
   height: 80vh;
  }
 
-@media screen and (max-width: 1200px) {
-  .app__image{
-  display: grid;
-  grid-template-rows: 100%;
-  width: 100%;
-}
-.app__text{
-  display: grid;
-  width: 100%;
-  grid-template-columns: 100%;
-}
-.app__body__right{
-  display: grid;
-  grid-template-rows: 50% 50%;
-  width: 100%;
- }
+@media all and (max-width: 1200px) {
+  .app__text,.app__image, .header, .col{
+    flex-basis: 100%;
+  }
+  .image__one{
+      height: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .app__left{
+  margin-top: 2rem;
+  }
+  .app__text > p{
+    display: none;
+  }
+  .app__text > h4{
+    display: none;
+  }
+  .invisible{
+    display: none;
+  }
+
 }
 
-.app__text{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin-left: 30px;
-    min-width: 50%;
-}
-
-.app__body__right{
-  display: grid;
-  grid-template-columns: 30% 70%;
-}
 
 .app__text > h1{
 font-size: 30px;
+color: #333333;
 }
 
 .app__text > p{
@@ -50,4 +82,12 @@ font-size: 30px;
   font-size: 14px;
   color: #666666;
   font-weight: 400;
+}
+
+.app__text > h5{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 1px;
 }

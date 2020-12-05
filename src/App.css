@@ -7,7 +7,6 @@
 .app{
   display: grid;
 }
-
   html,
   body{
     width:100%;
@@ -78,47 +77,7 @@ a:hover:after {
   left: 0; 
 }
 
-.app__left{
-  width: 70%;
-}
-
-
-.left__and__right{
-  display: grid;
-  grid-template-columns: 40% 60%;
-  width: 100%;
-  margin-top: 90px;
-}
-
 @media(max-width: 1200px) {
-  .app {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .app__left__heading{
-      margin-top: 10%;
-  }
-  .image__one{
-     display: flex;
-     flex-direction: column;
-     margin: 0 auto;
-     justify-content: center;
-     justify-items: center;
-  }
-  .left__and__right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-   .cards{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    margin-left: 10px;
-   }
-
   .app__navbar{
   display: flex;
   width: 100%;
@@ -127,25 +86,8 @@ a:hover:after {
   justify-content: center;
   align-items: center;
   }
-.app__left{
-  width: 100%;
+
 }
-}
-
-
-.main__body{
-  margin: 10px;
-}
-
-.app__left__heading{
-  margin-left: 60px;
-  font-size: 50px;
-  color: #333333;
-  margin-top: 10px;
-  float: left;
-}
-
-
 .long__button{
   width: 100%;
   padding: 21px 23px;

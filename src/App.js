@@ -2,7 +2,6 @@ import './App.css';
 import Searchbar from "./components/Searchbar"
 import Navbar from "./components/Navbar"
 import Left from "./components/Left"
-import Right from "./components/Right"
 
 // ====================================================================
 // I try to explain each code so please go through the comments too
@@ -20,7 +19,6 @@ function App() {
       <Navbar />
       <div className="left__and__right">
       <Left />
-      <Right />
       </div>
       </div>
     </div>

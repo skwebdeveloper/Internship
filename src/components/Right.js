@@ -11,7 +11,7 @@ const Right = () => {
     return (
         <div className="app__body__right">
         <div className="app__image">
-             <img data-aos="fade-left" className="image__one" src="https://images-na.ssl-images-amazon.com/images/I/71t8IWeFXUL._SL1500_.jpg" alt="Aesop" />
+        <img data-aos="fade-left" className="image__one" src="https://images-na.ssl-images-amazon.com/images/I/71t8IWeFXUL._SL1500_.jpg" alt="Aesop" />
         </div>
 {/* =========================================== */}
 {/* Here we can even Create a Component but for now I directly push data  */}
